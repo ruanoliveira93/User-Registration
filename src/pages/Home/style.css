@@ -1,0 +1,116 @@
+
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 40px 0px 40px 0px;
+    gap: 20px;
+    flex-direction: column;
+    max-width: 401px;
+    min-width: 400px;
+}
+
+h1 {
+    color: #ffff;
+    font-size: 31px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #2e2d4e;
+    max-width: 100%;
+    min-width: 400px;
+    margin-bottom: 30px;
+    box-shadow: black 0px 5px 5px 1px;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: row;
+    color: white;
+    padding: 0 0px 0 0;
+}
+
+input {
+    text-align: left;
+    width: 100%;
+    border-radius: 16px;
+    background: #2e2d4e;
+    text-indent: 10px;
+    color: white;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+form > button {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    width: 400px;
+}
+
+.usuarios {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    width: 400px;
+    padding: 15px 15px 0px 15px;
+    border-radius: 10px;
+    background-color: hsla(242, 27%, 24%, 0.5);
+}
+
+.texto {
+    color: white;
+}
+
+.texto span {
+    font-weight: bold;
+}
+
+.botao button {
+    background: transparent;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+
+.botao button i {
+    color: red;
+    text-shadow: black 1px 2px 2px;
+}
+
+.botao button i:hover {
+    color: rgba(255, 0, 0, 0.5);
+}
+
+.botao button i:active {
+    color: white;
+}
+
+
+
+.btn {
+    --bs-btn-padding-x: 0;
+    --bs-btn-padding-y: 0;
+}
+
